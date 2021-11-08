@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+header{
+    background-color: brown;
+    display: grid;
+    grid-auto-flow: column;
+    height: 60px;
+
+}
+header ul{
+ display: grid;
+ grid-auto-flow: column;
+ align-items: center;
+ justify-content: end;
+ gap: 10px;
+ padding-right: 50px;
+}
+header ul li{
+    list-style: none;
+    font-size: 20px;
+    
+}
