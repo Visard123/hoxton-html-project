@@ -11,33 +11,45 @@ html{
     font-family: sans-serif;
 }
 header{
-    background-color: brown;
+    background-color:rgb(247, 245, 245);
     display: grid;
     grid-auto-flow: column;
-    height: 60px;
+    height: 70px;
+    position: fixed;
+    width: 100vw;
 
   
-
+}
+header h1{
+ padding: 17px;
+ font-size: 28px;
+ padding-left: 40px;
+ font-family:fantasy;
+ font-weight: 100px;
+ color: rgb(83, 82, 82);
 }
 header ul{
  display: grid;
  grid-auto-flow: column;
  align-items: center;
  justify-content: end;
- gap: 10px;
+ gap: 40px;
  padding-right: 50px;
 }
 header ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
+ color: rgb(83, 82, 82);
+ font-weight: 550;
+
     
 }
 .section-1{
    display: grid;
-    background-image: url(/images/date\ with\ destiny.jpg);
+    background-image: url(/images/Tony\ robins\ blue.jpg);
      background-position: center;
      background-size:cover;
-     height: 90vh;
+     height: 100vh;
 }
 .section-1 h2{
     text-align: center;
@@ -171,8 +183,9 @@ header ul li{
 }
 .section-4 .vip-testimonials{
     display: grid;
-    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(3,350px);
     gap: 20px;
+    height: 250px;
     justify-content: center;
 
 
@@ -253,4 +266,21 @@ footer .form{
     grid-auto-flow: row;
     gap: 10px;
 
+}
+footer .social-media{
+    display: grid;
+    padding-top: 10px;
+  
+}
+.social-media ul{
+    display: grid;
+grid-auto-flow: column;
+}
+.social-media ul img{
+    height: 25px;
+    width: 25px;
+   
+}
+.social-media li{
+    list-style: none;
 }
