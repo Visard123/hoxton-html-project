@@ -44,6 +44,9 @@ header ul li{
 
     
 }
+header a{
+    text-decoration: none;
+}
 main .section-1{
     display: grid;
     background-image: url(/about/photos/Tony\ robins\ blue.jpg);
@@ -59,9 +62,23 @@ main .section-1{
     width: 80vw;
     padding-top: 40px;
     justify-self: center;
-    background-color: rgba(156, 151, 151, 0.6);
+    background-color: rgba(8, 8, 8, 0.4);
+  gap: 10px;
 
 }
 .tony-description h2{
     text-align: center;
+   color:  rgb(204, 204, 204);
+   padding-bottom: 30px;
+}
+.tony-description p{
+    display: grid;
+    grid-auto-flow: row;
+    
+    text-align: center;
+    color: rgb(204, 204, 204);
+    justify-content: center;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-bottom: 20px;
 }

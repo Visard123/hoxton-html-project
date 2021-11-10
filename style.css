@@ -17,6 +17,7 @@ header{
     height: 70px;
     position: fixed;
     width: 100vw;
+   
 
   
 }
@@ -35,6 +36,7 @@ header ul{
  justify-content: end;
  gap: 40px;
  padding-right: 50px;
+
 }
 header ul li{
     list-style: none;
@@ -42,7 +44,11 @@ header ul li{
  color: rgb(83, 82, 82);
  font-weight: 550;
 
+
     
+}
+header a{
+    text-decoration: none;
 }
 .section-1{
    display: grid;
@@ -50,17 +56,35 @@ header ul li{
      background-position: center;
      background-size:cover;
      height: 100vh;
+     justify-content: center;
+     align-content: center;
+     gap: 20px;
 }
 .section-1 h2{
     text-align: center;
    color: white;
-   padding-top: 100px;
+   
    font-size: 40px;
 }
 .section-1 .get-ticket{
+    display: grid;
    justify-content: center;
-   padding-left: 500px;
+  align-self: center;
+  text-decoration: none;
+  border-radius: 6px;
+
+ 
+ 
 }
+.get-ticket button{
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+  border-radius: 5px;
+  background-color: rgba(255,255, 255, 0.8)
+}
+
+
 .section-2{
     padding: 40px;
     background-color: rgb(228, 225, 225);
@@ -253,7 +277,7 @@ text-align: center;
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(156, 201, 201);
+    background-color:rgb(63, 63, 63);
     justify-items: center;
     padding: 20px;
 }
@@ -283,4 +307,67 @@ grid-auto-flow: column;
 }
 .social-media li{
     list-style: none;
+}
+footer .contact p {
+    color: rgb(182, 180, 180);
+}
+footer .contact h2{
+    color: rgb(182, 180, 180);
+}
+footer .contact h3{
+    color: rgb(182, 180, 180);
+}
+footer .form h2{
+    color: rgb(182, 180, 180); 
+}
+
+footer button{
+    width: 100px;
+    height: 40px;
+    color: rgb(91, 91, 114);
+    border-radius: 20px;
+    box-shadow: 1px 1px 0.5px 0.5px rgb(104, 103, 103);
+    border:none;
+    font-size: 16px;
+   
+}
+footer .submit-button{
+    padding-left: 80px;
+}
+footer .name input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .email input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .phone-number input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .message textarea{
+    height: 60px;
+    font-size: 15px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 700;
+     color:rgb(106, 106, 107); 
+
 }

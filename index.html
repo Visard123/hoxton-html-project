@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,17 +14,18 @@
 </div>
     
     <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Events</li>
-    <li>Articles</li>
+    <a href="http://127.0.0.1:5500/index.html"><li>Home</li></a>
+   <a href="http://127.0.0.1:5500/about/index.html"> <li>About</li> </a>
+    <a href="http://127.0.0.1:5500/articles/index.html"><li>Events</li></a>
+     <a href="http://127.0.0.1:5500/articles/index.html"><li>Articles</li></a>
 </ul>
  </header>
  <main>
  <section class="section-1">
-     <h2>DATE WITH DESTINY VIRTUAL, DECEMBER 4-9 </h2>
+     <h2>DATE WITH DESTINY VIRTUAL <h2>
+         <h2>DECEMBER 4-9 </h2>
      <p></p>
-   <a class=" get-ticket" href="https://dwdvirtual.com/live-dwd"> <button type="button" >Get Ticket</button> </a>
+   <a class=" get-ticket" href="https://dwdvirtual.com/live-dwd"> <button type="button" >Reserve my seat</button> </a>
 
  </section>
  <section class="section-2">
@@ -72,8 +73,10 @@
         <div class="gerard-buttler">
             <img src="/images/gerard butler.jpg" alt="gerard-butler">
             <h3>Gerard Butler</h3>
-            <p>Tony Robbins helped me discover what I am really made of. With Tony's help,
-                I've set new standards for my self, and I've taken my tennis game-and my life- to a whole new level!
+            <p>Fear is a huge issue for me.This technique Tony has is a really smart way
+                to literally set those fears aside... 
+                That to me, is unleashing the power within.
+                
             </p>
         </div>
         <div class="leonardo-dicaprio">
@@ -109,19 +112,21 @@
     </div>
     <div class="form">
         <h2>New announcements to you!</h2>
-        <label for="">
+        <label for="" class="name">
             <input type="text" placeholder="Enter your name">
         </label>
-        <label for="">
+        <label for="" class="email">
             <input type="text" placeholder="Enter your email">
         </label>
-        <label for="">
-        <input type="text" placeholder="Enter your phone number">
+        <label for="" class="phone-number">
+        <input type="text" required placeholder="Enter your phone number">
         </label>
-        <label for="">
+        <label for="" class="message">
             <textarea class="writting-box" name="message" cols="auto" rows="auto"> Your message here</textarea>
         </label>
+        <label for="" class="submit-button">
         <button type="submit"> Submit </button>
+    </label>
     </div>
 </footer>
 </body>
